@@ -1,0 +1,63 @@
+#File Inputs
+
+Number of Input Files:
+	None.																[error]
+	One.			
+	Multiple.
+
+#File Specifications
+
+Presence of a file corresponding to the name: 
+	Not present. 														[error]
+	Present. 
+
+Size of Files:
+	Empty.																[error]
+	Not Empty.
+
+#Options
+
+Number of Options chosen:
+	None.																[property noOption]
+	One.																[property oneOption]
+	Two. 																[property multipleOption]
+	Three. 																[property multipleOption]
+	Four.																[property multipleOption]
+	More than four.														[error]
+
+Options:
+	-Invalid option.													[error]
+	-b.																	[if !noOption && oneOption][property optionB]
+	-f.																	[if !noOption && oneOption]
+	-l.																	[if !noOption && oneOption]
+	-i.																	[if !noOption && oneOption]
+	-Multiple.															[if multipleOption]
+
+#Checks for Option B
+
+Space available for backup:
+	-Yes.																[if optionB]
+	-No.																[if optionB] [error]
+
+
+#String specifications
+
+Length of from-string:
+	Empty.																[error]
+	Not Empty.															[single][property validFromString]
+
+Length of to-string:
+	Empty.																[error]
+	Not Empty.															[single][property validToString]
+
+Number of String inputs:
+	None.																[error]
+	One.																[error]
+	Two.																[if validFromString && validToString]
+	More than two.														[error]
+
+String Character: 
+	Alphanumeric.
+	Special Characters.
+	Combination.
+

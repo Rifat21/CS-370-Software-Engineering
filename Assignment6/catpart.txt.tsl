@@ -1,0 +1,676 @@
+
+Test Case 1  		<error>
+   Number of Input Files :  None
+
+
+Test Case 2  		<error>
+   Presence of a file corresponding to the name :  Not present
+
+
+Test Case 3  		<error>
+   Size of Files :  Empty
+
+
+Test Case 4  		<error>
+   Number of Options chosen :  More than four
+
+
+Test Case 5  		<error>
+   Options :  -Invalid option
+
+
+Test Case 6  		<error>  (follows [if])
+   Space available for backup :  -No
+
+
+Test Case 7  		<error>
+   Length of from-string :  Empty
+
+
+Test Case 8  		<single>
+   Length of from-string :  Not Empty
+
+
+Test Case 9  		<error>
+   Length of to-string :  Empty
+
+
+Test Case 10 		<single>
+   Length of to-string :  Not Empty
+
+
+Test Case 11 		<error>
+   Number of String inputs :  None
+
+
+Test Case 12 		<error>
+   Number of String inputs :  One
+
+
+Test Case 13 		<error>
+   Number of String inputs :  More than two
+
+
+Test Case 14 		(Key = 2.2.2.1.0.0.0.0.0.1.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  None
+   Options                                      :  <n/a>
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 15 		(Key = 2.2.2.1.0.0.0.0.0.2.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  None
+   Options                                      :  <n/a>
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 16 		(Key = 2.2.2.1.0.0.0.0.0.3.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  None
+   Options                                      :  <n/a>
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 17 		(Key = 2.2.2.2.2.1.0.0.0.1.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -b
+   Space available for backup                   :  -Yes
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 18 		(Key = 2.2.2.2.2.1.0.0.0.2.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -b
+   Space available for backup                   :  -Yes
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 19 		(Key = 2.2.2.2.2.1.0.0.0.3.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -b
+   Space available for backup                   :  -Yes
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 20 		(Key = 2.2.2.2.3.0.0.0.0.1.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -f
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 21 		(Key = 2.2.2.2.3.0.0.0.0.2.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -f
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 22 		(Key = 2.2.2.2.3.0.0.0.0.3.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -f
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 23 		(Key = 2.2.2.2.4.0.0.0.0.1.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -l
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 24 		(Key = 2.2.2.2.4.0.0.0.0.2.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -l
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 25 		(Key = 2.2.2.2.4.0.0.0.0.3.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -l
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 26 		(Key = 2.2.2.2.5.0.0.0.0.1.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -i
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 27 		(Key = 2.2.2.2.5.0.0.0.0.2.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -i
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 28 		(Key = 2.2.2.2.5.0.0.0.0.3.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -i
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 29 		(Key = 2.2.2.3.6.0.0.0.0.1.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Two
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 30 		(Key = 2.2.2.3.6.0.0.0.0.2.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Two
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 31 		(Key = 2.2.2.3.6.0.0.0.0.3.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Two
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 32 		(Key = 2.2.2.4.6.0.0.0.0.1.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Three
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 33 		(Key = 2.2.2.4.6.0.0.0.0.2.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Three
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 34 		(Key = 2.2.2.4.6.0.0.0.0.3.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Three
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 35 		(Key = 2.2.2.5.6.0.0.0.0.1.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Four
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 36 		(Key = 2.2.2.5.6.0.0.0.0.2.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Four
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 37 		(Key = 2.2.2.5.6.0.0.0.0.3.)
+   Number of Input Files                        :  One
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Four
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 38 		(Key = 3.2.2.1.0.0.0.0.0.1.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  None
+   Options                                      :  <n/a>
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 39 		(Key = 3.2.2.1.0.0.0.0.0.2.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  None
+   Options                                      :  <n/a>
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 40 		(Key = 3.2.2.1.0.0.0.0.0.3.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  None
+   Options                                      :  <n/a>
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 41 		(Key = 3.2.2.2.2.1.0.0.0.1.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -b
+   Space available for backup                   :  -Yes
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 42 		(Key = 3.2.2.2.2.1.0.0.0.2.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -b
+   Space available for backup                   :  -Yes
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 43 		(Key = 3.2.2.2.2.1.0.0.0.3.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -b
+   Space available for backup                   :  -Yes
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 44 		(Key = 3.2.2.2.3.0.0.0.0.1.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -f
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 45 		(Key = 3.2.2.2.3.0.0.0.0.2.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -f
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 46 		(Key = 3.2.2.2.3.0.0.0.0.3.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -f
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 47 		(Key = 3.2.2.2.4.0.0.0.0.1.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -l
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 48 		(Key = 3.2.2.2.4.0.0.0.0.2.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -l
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 49 		(Key = 3.2.2.2.4.0.0.0.0.3.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -l
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 50 		(Key = 3.2.2.2.5.0.0.0.0.1.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -i
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 51 		(Key = 3.2.2.2.5.0.0.0.0.2.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -i
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 52 		(Key = 3.2.2.2.5.0.0.0.0.3.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  One
+   Options                                      :  -i
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 53 		(Key = 3.2.2.3.6.0.0.0.0.1.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Two
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 54 		(Key = 3.2.2.3.6.0.0.0.0.2.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Two
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 55 		(Key = 3.2.2.3.6.0.0.0.0.3.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Two
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 56 		(Key = 3.2.2.4.6.0.0.0.0.1.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Three
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 57 		(Key = 3.2.2.4.6.0.0.0.0.2.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Three
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 58 		(Key = 3.2.2.4.6.0.0.0.0.3.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Three
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
+
+Test Case 59 		(Key = 3.2.2.5.6.0.0.0.0.1.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Four
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Alphanumeric
+
+
+Test Case 60 		(Key = 3.2.2.5.6.0.0.0.0.2.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Four
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Special Characters
+
+
+Test Case 61 		(Key = 3.2.2.5.6.0.0.0.0.3.)
+   Number of Input Files                        :  Multiple
+   Presence of a file corresponding to the name :  Present
+   Size of Files                                :  Not Empty
+   Number of Options chosen                     :  Four
+   Options                                      :  -Multiple
+   Space available for backup                   :  <n/a>
+   Length of from-string                        :  <n/a>
+   Length of to-string                          :  <n/a>
+   Number of String inputs                      :  <n/a>
+   String Character                             :  Combination
+
